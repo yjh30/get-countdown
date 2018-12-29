@@ -8,7 +8,8 @@ module.exports = {
   },
   output: {
     path: resolve('./lib'),
-    filename: 'index.js'
+    filename: 'index.js',
+    libraryTarget: 'commonjs2'
   },
   module: {
     rules: [{
